@@ -101,6 +101,11 @@ public class Card
       return "clubs";
     }
   }
+    
+  /**
+    * creates a string representation of the card
+    * @return string representation of the card
+  */
     public String toString()
     {
     return  getValue() + " of "  + getSuit(); }
